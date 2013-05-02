@@ -1,0 +1,11 @@
+<h1>
+  Welcome to the new SiteTools!
+</h1>
+<p>
+  This is going to be the new SiteTools index. The note here is for temporary purposes only, while I set up preliminary structure.
+</p>
+<%= form_tag(:controller => "search", :action => "findPerson", :method => "get") do %>
+<%=   label_tag(:first, "First Name:") %>
+<%=   text_field_tag(:first) %>
+<%=   submit_tag("Search") %>
+<% end %>

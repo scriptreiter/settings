@@ -1,0 +1,1 @@
+/Users/nreiter/.vim/janus/vim/vimrc
